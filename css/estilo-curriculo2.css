@@ -1,0 +1,61 @@
+/* estilos da pagina curriculo.html */
+
+/* class da barra de navegacao do bootstrap */
+.navbar {
+ margin-bottom: 0;
+ border:none;
+ background:#0d47a1; /*cor de fundo*/
+ padding-top:10px;
+padding-bottom: 10px;
+
+
+}
+
+/* mudar cor dos links na barra da navegacao
+ nao muda a cor do texto do link da esquerda */
+.navbar li a:hover {
+ color: #64ffda; !important;
+}
+.navbar-default {
+ color:#fff; !important;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:houver,
+.navbar-default .navbar-nav > .active > a:focus {
+	color: #fff;
+	background-color :#222;
+}
+
+
+.bg1 {
+	background: #6699ff;
+	color: #fff;
+}
+.bg2 {
+	background: #336699;
+	color:#fff;
+}
+.bg3{
+	background: #fff;
+	color:#555;
+}
+#who{
+	margin-top: 70px;
+	padding-top:20px;
+	padding-bottom: 20px; 
+}
+#what, #where {
+	padding-top:20px;
+	padding-bottom: 20px; 
+}
+.lista {
+	width: 90%;
+	margin: auto;/*centralizar*/
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+.bt-topo {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
